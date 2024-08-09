@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+$retorno = '';
 // Inicializa o saldo se não estiver definido
 if (!isset($_SESSION['saldo'])) {
     $_SESSION['saldo'] = 0.00; // Saldo inicial para visualização
@@ -17,6 +17,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Atualiza o saldo com base na operação
         if ($operacao == 'adicao') {
             $_SESSION['saldo'] += $valor; // Adiciona o valor ao saldo
+        } 
+		if ($operacao == 'saque') {
+			
+			if(($_SESSION['saldo'] - $valor) > 0.00){
+				$_SESSION['saldo'] -= $valor; // Adiciona o valor ao saldo
+			}else{
+				$retorno =  'Saldo insuficinete!';
+			}
+            
+        } 
+		if ($operacao == 'multi') {
+            $_SESSION['saldo'] *= $valor; // Adiciona o valor ao saldo
+        } 
+		if ($operacao == 'div') {
+            $_SESSION['saldo'] /= $valor; // Adiciona o valor ao saldo
+        } 
+		if ($operacao == 'mod') {
+            $_SESSION['saldo'] %= $valor; // Adiciona o valor ao saldo
         } 
     }
 }
@@ -38,12 +56,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="alert alert-info mt-4">
         Saldo atual: R$ <?= number_format($_SESSION['saldo'], 2, ',', '.') ?>
     </div>
+	
+	<?php if($retorno){ ?>
+	<div class="alert alert-info mt-4">
+        <?=$retorno?>
+    </div>
+	<?php }?>
 
     <form method="post" action="" class="mt-4">
         <div class="form-group">
             <label for="operacao">Operação:</label>
             <select class="form-control" id="operacao" name="operacao" required>
-                <option value="adicao">Adição</option>
+                <option value="adicao">Deposito</option>
+				<option value="saque">Saque</option>
+				<option value="multi">Multi</option>
+				<option value="div">Div</option>
+				<option value="mod">Mod</option>
             </select>
         </div>
         <div class="form-group">
