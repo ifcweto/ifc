@@ -1,0 +1,417 @@
+.rtl,
+.rtl .dropdown-menu {
+    text-align: right;
+}
+
+.rtl .list-unstyled,
+.rtl .navbar-nav {
+    padding-right: 0;
+}
+.rtl .ml-7{
+    margin-right: 35px !important;
+    margin-left: 0 !important;
+}
+.rtl .mr-1{
+    margin-right: 0 !important;
+    margin-left: 5px !important;
+}
+.rtl .ml-4{
+    margin-right: 20px !important;
+    margin-left: 0 !important;
+}
+.rtl .mnDropList li.hasDropdown > a::after{
+    transform: rotate(-135deg);
+    margin-left: 0 !important;
+    margin-right: 4px !important;
+}
+.rtl .mndAdress{
+    left: inherit;
+    right: 100%;
+}
+.rtl .teeSideHead .text-right{
+    text-align: left !important;
+}
+.rtl .bulletList > li::before{
+    left: inherit;
+    right: 0;
+}
+.rtl .bulletList > li{
+    padding-right: 16px !important;
+    padding-left: 0 !important;
+}
+.rtl .mr-3{
+    margin-left: 15px !important;
+    margin-right: 0 !important;
+}
+.rtl .ueecTimeTag{
+    left: inherit;
+    right: 0;
+}
+.rtl .text-md-left{
+    text-align: right !important;
+}
+.rtl .footerAside{
+    text-align: right !important;
+}
+.rtl .footerAside.footerAsideVii{
+    text-align: center !important;
+}
+.rtl .ssCountOnly li.slick-active::after{    
+    margin-right: -18px;
+    margin-left: 12px;
+}
+.rtl .ssCountOnly li:last-child.slick-active button{
+    margin-right: 4px;
+    margin-left: -16px;
+}
+.rtl .ssArrowVii.slickPrev{
+    -webkit-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    transform: translateX(-100px);
+}
+.rtl .ssArrowVii.slickNext {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+}
+.rtl .supportMuseumBlock .position-static,
+.rtl .alignWrap .position-static{
+    position: inherit !important;
+}
+.rtl .ibtbtOpener{
+    right: inherit;
+    left: 2px;
+}
+.rtl .mr-8{
+    margin-left: 40px !important;
+    margin-right: 0 !important;
+}
+.rtl .lociAside .imgHolder{
+    left: inherit;
+    right: 0;
+}
+.rtl .dtPickerWrap::after,
+.rtl .chosen-container-single .chosen-single::after{
+    right: inherit;
+    left: 20px;
+}
+.rtl .chosen-container-single .chosen-single span{
+    margin-left: 20px !important;
+    margin-right: 0 !important;
+}
+.rtl dd{
+    margin-right: 0;
+}
+.rtl .mr-2{
+    margin-left: 10px !important;
+    margin-right: 0 !important;
+}
+.rtl .exhiTabList{
+    padding-right: 0;
+}
+.rtl .scPagerNav .scpnPrev::before{
+    left: inherit;
+    right: 0;
+    transform: rotate(45deg);
+}
+.rtl .scPagerNav .scpnNext{ text-align:left !important; }
+.rtl .scPagerNav .scpnNext::before{
+    right: inherit;
+    left: 0;
+    transform: rotate(225deg);
+}
+.rtl .vctOpener.text-left{
+    text-align: right !important;
+}
+.rtl .logosList li + li{
+    border-right: 1px solid #eee;
+}
+.rtl .dbSpentShow .curr{
+    left: inherit;
+    right: 1px;
+}
+.rtl .dbSpentShow .showField{
+    padding: 5px 60px 5px 5px;
+}
+.rtl .dbSpentShow.dbSpentShowII .showField{
+    text-align: left;
+}
+.rtl .exhiTabList.exhiTabListIII .icn{
+    margin-right: 4px;
+    margin-left: -4px;
+}
+.rtl .sorterHead .text-md-right{
+    text-align: left !important;
+}
+.rtl .sorterHead .chosen-container{
+    text-align: right !important;
+}
+.rtl .csSelectSmall + .chosen-container .chosen-single{
+    padding: 9px 14px 9px 0;
+}
+.rtl .widgetNavList > ul > li{
+    padding-right: 20px !important;
+    padding-left: 0 !important;
+}
+.rtl .widgetNavList > ul > li::before{
+    left: inherit;
+    right: 4px;
+}
+.rtl .pr-4{
+    padding-left: 20px !important;
+    padding-right: 0 !important;
+}
+.rtl .mr-4{
+    margin-left: 20px !important;
+    margin-right: 0 !important;
+}
+.rtl .navbarSide{
+    right: inherit;
+    left: 0;
+}
+.rtl .navbarSide .hdMenuOpener{
+    left: 30px;
+    right: inherit;
+}
+.rtl .hdSearchOpener{
+    left: 54px;
+    right: inherit;
+}
+.rtl .pgNavOpener{
+    left: 0;
+    right: inherit;
+}
+.rtl .mainNavigation .nav-item.dropdown > .nav-link::after{
+    transform: rotate(225deg);
+}
+
+@media (max-width: 768px) {
+    .rtl .mr-18{
+        margin-left: 90px !important;
+    }
+    .rtl .footerAside{
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .rtl .offset-sm-1{
+        margin-right: 8.33333% !important;
+        margin-left: 0 !important;
+    }
+    .rtl .fasFrameWrap{
+        right: inherit;
+        left: 0;
+    }
+    .rtl .scPagerNav .scpnPrev{
+        padding-right: 53px !important;
+        padding-left: 0 !important;
+    }
+    .rtl .scPagerNav .scpnNext{
+        padding-left: 55px !important;
+        padding-right: 0 !important;
+    }
+}
+@media (min-width: 768px) {
+    .rtl .mainNavigation .nav-item{
+        margin-left: 23px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .mnDropList .mnDropList{
+        left: inherit;
+        right: 100%;
+    }
+    .rtl .offset-md-2{
+        margin-right: 16.66667% !important;
+        margin-left: 0 !important;
+    }
+    .rtl .specialRequestAside .offset-md-2{
+        margin-right: 0 !important;
+        margin-left: 16.66667% !important;
+    }
+    .rtl .scheduleDetailsAside .col + .col::before{
+        left: inherit;
+        right: -9px;
+    }
+    .rtl .ssCountOnly{
+        padding-right: 74px !important;
+        padding-left: 0 !important;
+    }
+    .rtl .qlColumnsWrap .col:first-child{
+        border-right-width: 1px;
+    }
+    .rtl .pr-md-6{
+        padding-left: 30px !important;
+        padding-right: 0 !important;
+    }
+    .rtl .supportMuseumBlock .imgHolder{
+        left: inherit;
+        right: 0;
+    }
+    .rtl .exhibitDescrColumn .imgHolder{
+        left: inherit;
+        right: 0;
+    }
+    .rtl .exhibitDescrColumn:nth-child(2n) .imgHolder{
+        right: inherit;
+        left: 0;
+    }
+    .rtl .exhiTabList.exhiTabListII .nav-item{
+        margin-left: 34px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .scSidebar::before{
+        border-width: 0 1px 0 0;
+        left: inherit;
+        right: 10px;
+    }
+    .rtl .sorterHead .text-md-right{
+        text-align: left !important;
+    }
+}
+@media (min-width: 992px) {
+    .rtl .ogFiltersList > li{
+        margin-right: 27px !important;
+        margin-left: 0 !important;
+    }
+    .rtl .ogFiltersList.isLeft > li{
+        margin-left: 27px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .pr-lg-18{
+        padding-left: 90px !important;
+        padding-right: 0 !important;
+    }
+    .rtl .ghcBtnGo{
+        right: auto;
+        left: 30px;
+    }
+    .rtl .ml-lg-16{
+        margin-right: 80px !important;
+        margin-left: 0 !important;
+    }
+    .rtl .pr-lg-12{
+        padding-left: 60px !important;
+        padding-right: 0 !important;
+    }
+    .rtl .offset-lg-2{
+        margin-right: 16.66667%;
+    }
+    .rtl .mr-lg-10{
+        margin-left: 50px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .mr-lg-8{
+        margin-left: 40px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .pl-lg-13{
+        padding-right: 65px !important;
+        padding-left: 0 !important;
+    }
+    .rtl .mr-lg-8{
+        margin-left: 40px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .mr-lg-4{
+        margin-left: 20px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .pl-lg-10{
+        padding-right: 50px !important;
+        padding-left: 0 !important;
+    }
+    .rtl .scrollToNav li{
+        margin-left: 26px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .pl-lg-6{
+        padding-right: 30px !important;
+        padding-left: 0 !important;
+    }
+    .rtl .vctOpener::after{
+        right: inherit;
+        left: 30px;
+    }
+}
+@media (min-width: 1230px) {
+    .rtl .mr-xl-6{
+        margin-left: 30px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .offset-xl-3{
+        margin-right: 25% !important;
+        margin-left: 0 !important;
+    }
+    .rtl .ml-xl-10{
+        margin-right: 50px !important;
+        margin-left: 0 !important;
+    }
+    .rtl .ml-xl-7{
+        margin-left: 0 !important;
+    }
+    .rtl .aboutOnviewBlock .imgHolder::before,
+    .rtl .aboutOnviewBlock .imgHolder::after{
+        margin-right: 24px !important;
+        margin-left: 0 !important;
+    }
+    .rtl .pl-xl-8{
+        padding-right: 40px !important;
+    }
+    .rtl .pr-xl-16{
+        padding-left: 80px !important;
+        padding-right: 0 !important;
+    }
+    .rtl .pl-lg-21{
+        padding-right: 105px !important;
+        padding-left: 0 !important;
+    }
+    .rtl .offset-xl-2{
+        margin-right: 16.66667% !important;
+        margin-left: 0 !important;
+    }
+    .rtl .mr-xl-8{
+        margin-left: 40px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .pr-xl-17{
+        padding-left: 85px !important;
+        padding-right: 0 !important;
+    }
+    .rtl .pl-xl-9{
+        padding-right: 45px !important;
+        padding-left: 0 !important;
+    }
+    .rtl .pl-xl-10{
+        padding-right: 50px !important;
+        padding-left: 0 !important;
+    }
+}
+@media (min-width: 1366px) {
+    .rtl .hmFullLinkingNav{
+        right: inherit;
+        left: 40px;
+    }
+    .rtl .mr-xlwd-n10{
+        margin-left: -50px !important;
+        margin-right: 0 !important;
+    }
+    .rtl .pl-xlwd-13{
+        padding-right: 65px !important;
+        padding-left: 0 !important;
+    }
+    .rtl .ml-xlwd-n10{
+        margin-right: -50px !important;
+        margin-left: 0 !important;
+    }
+    .rtl .pr-xlwd-13{
+        padding-left: 65px !important;
+        padding-right: 0 !important;
+    }
+}
+@media (min-width: 1800px) {
+    .rtl .mainNavigation .nav-item:nth-last-child(1) .dropdown-menu .mnDropList{
+        left: inherit;
+        right: 100%;
+    }
+}
